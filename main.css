@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: linear-gradient(135deg, #be964b, #d49542, #ad8336 );
+overflow: hidden;
+height: 100vh;
+}
+.continer {
+    margin: auto;
+    width: fit-content;
+    margin-top: 20px;
+
+}
+
+.all-img {
+    width: 60px;
+    height: 90vh;
+    border-radius: 50px;
+    margin: 0 2px;
+    cursor: pointer;
+    transition:  1s ease-in-out;
+}
+
+.active {
+    width: 300px;
+}
